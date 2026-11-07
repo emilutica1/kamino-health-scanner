@@ -1,0 +1,20 @@
+{
+  "name": "kamino-health-scanner",
+  "version": "1.0.0",
+  "description": "Read-only scanner for Kamino Lend (Solana): health of every borrowing position, distance to liquidation, and price-shock scenarios.",
+  "main": "scan.js",
+  "scripts": { "scan": "node scan.js" },
+  "keywords": ["solana", "kamino", "liquidation", "risk", "defi", "lending", "analytics"],
+  "author": "emilutica1",
+  "contributors": ["Claude (Anthropic AI model, via Claude Code)"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/emilutica1/kamino-health-scanner" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@kamino-finance/klend-sdk": "13.0.1",
+    "@solana/kit": "2.3.0",
+    "@solana/web3.js": "1.99.0",
+    "bs58": "4.0.1",
+    "decimal.js": "10.6.0"
+  }
+}
